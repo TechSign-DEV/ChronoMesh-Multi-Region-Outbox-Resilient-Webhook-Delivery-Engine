@@ -1,0 +1,36 @@
+
+.retry-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 9px 13px;
+  border: 1px solid #6652a3;
+  border-radius: 7px;
+  background: #292044;
+  color: #c4b5fd;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.retry-button:hover {
+  background: #3b2d63;
+}
+
+.retry-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.failed-error-cell {
+  max-width: 220px;
+  color: #fca5a5;
+  overflow-wrap: anywhere;
+  font-size: 12px;
+}
+
+.retry-information ul {
+  padding-left: 22px;
+  color: #aeb8c8;
+  line-height: 2;
+}
